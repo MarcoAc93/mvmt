@@ -1,0 +1,42 @@
+.container {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container__row {
+  height: auto;
+  display: flex;
+}
+
+.container__row--corner {
+  width: 15%;
+}
+
+.container__row--select {
+  width: 70%;
+}
+
+.--gray {
+  background-color: #ABACAB;
+  position: relative;
+}
+
+.--gray img {
+  width: 100px;
+  position: absolute;
+}
+
+.--blue {
+  background-color: #69A2D0;
+}
+
+.--flex-1 {
+  flex: 1;
+}
+
+.--flex-5 {
+  flex: 5;
+}
