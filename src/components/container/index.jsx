@@ -27,7 +27,6 @@ const Container = () => {
         setHorizontal(0);
         return;
       }
-      console.log(left);
       if (left) setHorizontal(horizontal - 10)
       else setHorizontal(horizontal + 10);
     }
